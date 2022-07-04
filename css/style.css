@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Marvel;
+    src: url('../assets/fonts/kenyan\ coffee\ rg.ttf');
+    font-style: normal;
+}
+body {
+    font-family: 'Marvel'
+}
+.parallax {
+    
+    background-image: url('../assets/images/Wallpaper.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*--------------------------------- subtitulo----------------------------------- */
+.subtitulo {
+    /* background-color: rgba(255, 0, 0, 0.9); */
+    background-image: radial-gradient(circle, red, black);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+h2{
+    width: 100%;
+    
+}
+/* ----------------------------logo--------------------------------------- */
+.grid-logo{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;    
+}
+
+.grid-logo-item{
+    height: 100%;
+    width: 70%;
+}
+
+/* ----------------------------nav--------------------------------- */
+.estilo-ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+   
+}
+.estilo-nav-li {
+    text-align: center;
+    font-size: 18;
+    margin: 2px;
+    padding: 2px;
+    border: solid;
+}
+.boton-nav {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    height: 20px;
+    width: 100px;
+}
+
+
+.estilo-a{
+    text-decoration: none;
+    color: black;
+} 
+/* ----------------------------------------------------------------------------- */
+
+.estilo-section-div1{
+  
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    padding-top: 10px;
+    grid-template-columns: 650px 450px;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.estilo-section-div2{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    grid-template-columns: 275px 275px 550px;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.grid__item{
+   height:100%;
+   width: 100%;
+}
+
+.grid__item-img{
+    height: 98%;
+    width: 98%;
+}
+.texto-p {
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* --------------------------------video--------------------------------- */
+.grid-video{
+    
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid-video-item{
+    margin: 1px;
+    width: 80%;
+    height: 80%;
+   
+}
+/* --------------------------footer------------------------------------------------------- */
+.footer {
+    
+    background-image: radial-gradient(circle, red, black);
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 120px;
+}
+.estilo-a-footer{
+    width: 50px;
+    height: 50px;
+}
+h4{
+    padding: 10px;
+}
+
+/* -------------------------------Pag Peliculas------------------------- */
+.section-pelis{
+    background-color: rgba(255, 0, 0, 0.9);
+    text-align: center;
+    font-size: 25px;
+}
+
+.borde-tabla{
+    border: solid ;
+    border-collapse: separate;
+    border-color: red;
+}
+.section-table{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.table{
+    padding-bottom: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.table-thead-tr{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.table-tbody-tr{
+    background-color: rgba(255, 0, 0, 0.7);
+    font-size: 20px;
+
+}
+.table-tbody-tr2{
+    background-color:  rgba(128, 128, 128, 0.5);
+    font-size: 20px;
+}
+
+.portada-peli{
+    padding-top: 5px;
+    width: 120px;
+    height: 170px;
+}
+/* ------------------------------Pag Cronologia------------------------------------------------ */
+.h2-cronologia{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.estilo-section-crono{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+.crono-item{
+    height: 90%;
+     width: 500px; ;
+}
+/* ------------------------------------------Pag Contacto------------------------------------- */
+.font-contacto{
+    color: rgb(255, 255, 255);
+    font-size: 22;
+}
+.section-contacto{
+    width: 100%;
+    height: 500px;
+}
+.form {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border:  black;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+  }  
+
+/* ------------------------------media---------------------------------------------------------- */
+
+@media (max-width:1100px) {
+    .estilo-section-div1{
+        grid-template-columns: 500px 300px;
+    }
+    .estilo-section-div2{
+    grid-template-columns: 230px 230px 340px;
+    }
+    .grid-video-item{
+        margin: 1px;
+        width: 90%;
+        height: 90%;
+    }
+    .crono-item{
+        width: 300px; ;
+   }
+   
+}
+@media (max-width: 768px){
+    .estilo-section-div1{
+        grid-template-columns: 400px 250px;
+    }
+    .estilo-section-div2{
+    grid-template-columns: 180px 180px 290px;
+    }
+    .grid-video{
+        height: 550px;
+        grid-template-columns: 1fr;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+       justify-items: center;
+    }   
+
+   
+    .estilo-ul {
+        justify-content: center;
+        height: 40px;
+    }
+    .estilo-section-crono{
+       grid-template-columns: 1fr ;
+        
+    }
+    .crono-item{
+        width: 500px; ;
+   }
+   .footer {
+    height: 150px;
+   }
+    
+   
+}
+@media (max-width: 650px){
+    .boton-nav {
+        
+        height: 28px;
+        width: 50px;
+    }
+    /* body{
+        font-size: 20px;
+    } */
+    .estilo-section-div1{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    }
+    .estilo-section-div2{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    }
+    .crono-item{
+        width: 380px; ;
+   }
+   .grid-video{
+     height: 180px;
+   }
+}
+@media (max-width: 400px){
+    .crono-item{
+        width: 330px; ;
+   }
+   .portada-peli{
+    width: 100px;
+    height: 150px;
+   }
+   .grid-video{
+    height: 120px;
+  }
+}
+@media (max-width: 380px){
+    .portada-peli{
+        width: 80px;
+        height: 130px;
+    }
+    .crono-item{
+        width: 300px; 
+        font-size: 15px;
+   }
+   .table-thead-tr{
+    font-size: 18px;
+    }
+}
+
+
+
