@@ -8,23 +8,37 @@
     <title>MCU-Home</title>
     <link rel="shortcut icon" href="./assets/images/favicon.ico" />
     <link rel="stylesheet" href="./css/style.css" />
+    <!--------------------------- bootstrap ------------------------------------------------------------->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <a class="grid-logo" href="./index.html">
-            <img class="grid-logo-item" src="./assets/images/mcu.png" alt="MCU-Home" >
-        </a>
-        <h2 class="subtitulo">Un universo de peliculas Heroicas</h2>
-        <nav>
-            <ul class="estilo-ul">
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./index.html">Home</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./pages/peliculas.html">Peliculas</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./pages/cronologia.html">Cronologia</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+    <header class="bg-black">
+        <div class=" container  " href="./index.html">
+            <img class="img-fluid" src="./assets/images/mcu.png" alt="MCU-Home" >
+        </div>
+        
+        <h2 class="bg-danger bg-gradient text-white text-center">Un universo de peliculas Heroicas</h2>
+
+        <nav class="navbar navbar-expand-sm bg-secondary text-black ">
+            <div class="container">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  <a class="nav-link" href="./pages/peliculas.html">Peliculas</a>
+                  <a class="nav-link" href="./pages/cronologia.html">Cronologia</a>
+                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
         </nav>
     </header>
+
     <main class="parallax">
         <div >
 
