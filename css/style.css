@@ -47,20 +47,9 @@ h4{
 }
 
 /* -------------------------------Pag Peliculas------------------------- */
-.section-pelis{
-    background-color: rgba(255, 0, 0, 0.9);
-    text-align: center;
-    font-size: 25px;
-}
 
-.borde-tabla{
-    border: solid ;
-    border-collapse: separate;
-    border-color: red;
-}
 .section-table{
-    background-color: rgba(0, 0, 0, 0.5);
-    
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 .table{
     padding-bottom: 15px;

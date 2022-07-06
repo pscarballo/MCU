@@ -8,116 +8,134 @@
     <title>MCU-Peliculas</title>
     <link rel="shortcut icon" href="../assets/images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
+    <!--------------------------- bootstrap ------------------------------------------------------------->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <a class="grid-logo" href="../index.html">
-            <img class="grid-logo-item" src="../assets/images/mcu.png" alt="MCU-Home" >
+    <header class="bg-black">
+        <a class=" container  " href="../index.html">
+            <img class="img-fluid" src="../assets/images/mcu.png" alt="MCU-Home" >
         </a>
-        <h2 class="subtitulo">Un universo de peliculas Heroicas</h2>
 
-        <nav>
-            <ul class="estilo-ul">
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="../index.html">Home</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./peliculas.html">Peliculas</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./cronologia.html">Cronologia</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./contacto.html">Contacto</a></li>
-            </ul>
+        <h2 class="bg-danger bg-gradient text-white text-center">Un universo de peliculas Heroicas</h2>
+
+        <nav class="navbar navbar-expand-sm bg-secondary text-black ">
+            <div class="container">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" href="./peliculas.html">Peliculas</a>
+                  <a class="nav-link" href="./cronologia.html">Cronologia</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
         </nav>
 
     </header>
     <main class="parallax">
         <section class="section-table">
-            <h2 class="section-pelis">Peliculas</h2>
+            <h2 class="bg-danger bg-gradient text-white text-center">Peliculas</h2>
 
-            <table class="table">
+            
+                <table class="table">
+                    <thead>
+                      <tr class="text-white">
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Año</th>
+                        <th scope="col">Protagonista</th>
+                        <th scope="col">Director</th>
+                        <th scope="col">Portada</th>
+                      </tr>
+                    </thead>
 
-                <thead class="borde-tabla">
-                    <tr class="table-thead-tr ">
-                        <th>Nombre</th>
-                        <th>Año</th>
-                        <th>Protagonista</th>
-                        <th>Director</th>
-                        <th>Portada</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr class="table-tbody-tr borde-tabla">
-                        <td>Ironman</td>
+                    <tbody>
+                      <tr class="text-white">
+                        <th scope="row">Ironman</th>
                         <td>2008</td>
                         <td>Robert Downey Jr</td>
                         <td>Jon Favreau</td>
                         <td><a href="https://en.wikipedia.org/wiki/Iron_Man_(2008_film)" target="_blank">
-                                <img class="portada-peli" src="../assets/images/ironman.jpg" alt="ironman-pelicula"  />
-                            </a></td>
-                    </tr>
-                    <tr class="table-tbody-tr2 borde-tabla">
-                        <td>The Incredible Hulk</td>
+                            <img class="portada-peli" src="../assets/images/ironman.jpg" alt="ironman-pelicula"  />
+                           </a>
+                        </td>
+                      </tr>
+                      <tr class="text-white">
+                        <th scope="row">The Incredible Hulk</th>
                         <td>2008</td>
                         <td>Edward Norton</td>
                         <td>Louis Leterrier</td>
                         <td><a href="https://en.wikipedia.org/wiki/The_Incredible_Hulk_(film)" target="_blank">
-                                <img class="portada-peli" src="../assets/images/the-incredible-hulk.jpg" alt="hulk-pelicula"  />
-                            </a></td>
-                    </tr>
-                    <tr class="table-tbody-tr borde-tabla">
-                        <td>Capitan America: The First Avenger</td>
+                             <img class="portada-peli" src="../assets/images/the-incredible-hulk.jpg" alt="hulk-pelicula"  />
+                           </a>
+                        </td>
+                      </tr>
+                      <tr class="text-white">
+                        <th scope="row">Capitan America: The First Avenger</th>
                         <td>2011</td>
                         <td>Cris Evans</td>
                         <td>Joe Johnston</td>
                         <td><a href="https://en.wikipedia.org/wiki/Captain_America:_The_First_Avenger" target="_blank">
-                                <img class="portada-peli" src="../assets/images/capitan-america.jpg" alt="capitan-america-pelicula" />
-                            </a></td>
-                    </tr>
-                    <tr class="table-tbody-tr2 borde-tabla">
-                        <td>Thor</td>
+                             <img class="portada-peli" src="../assets/images/capitan-america.jpg" alt="capitan-america-pelicula" />
+                            </a>
+                        </td>
+                      </tr>
+                      <tr class="text-white">
+                        <th scope="row">Thor</th>
                         <td>2011</td>
                         <td>Cris Hemsworth</td>
                         <td>Kenneth Branagh</td>
                         <td><a href="https://en.wikipedia.org/wiki/Thor_(film)" target="_blank">
-                                <img class="portada-peli" src="../assets/images/thor.jpg" alt="thor-pelicula"  />
-                            </a></td>
-                    </tr>
-                    <tr class="table-tbody-tr borde-tabla">
-                        <td>Black Widow</td>
+                             <img class="portada-peli" src="../assets/images/thor.jpg" alt="thor-pelicula"  />
+                           </a>
+                        </td>
+                      </tr>
+                      <tr class="text-white">
+                        <th scope="row">Black Widow</th>
                         <td>2021</td>
                         <td>Scarlett Johansson</td>
                         <td>Cate Shortland</td>
                         <td><a href="https://en.wikipedia.org/wiki/Black_Widow_(2021_film)" target="_blank">
-                                <img class="portada-peli" src="../assets/images/black-widow.jpg" alt="blck-widow-pelicula"  />
+                              <img class="portada-peli" src="../assets/images/black-widow.jpg" alt="blck-widow-pelicula"  />
                             </a>
                         </td>
-                    </tr>
-
-                </tbody>
-
-            </table>
+                      </tr>
+                    </tbody>
+                  </table>    
         </section>
     </main>
-    <footer>
-        <section class="footer">
-            <a href="https://www.instagram.com/" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/instagram.png" alt="instagram" />
-            </a>
-            <a href="https://twitter.com/?lang=es" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/twitter.png" alt="twitter" />
-            </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/facebook.png" alt="facebook" />
-            </a>
-            <a href="https://www.whatsapp.com/" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/whatsapp.png" alt="whatsapp" />
-            </a>
-            <h4>&copy 2022, MITCH todos los derechos reservados</h4>
-          
-            <label for="suscripcion">Suscribite a nuestro newsletter:</label>
-            <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
-            <button type="submit">Enviar</button>
+    <footer class="bg-danger">
+        <div class="container p-2">
+            
+            <div class="row p-3 justify-content-center">
+              <a class="col-sm-1" href="https://www.instagram.com/" target="_blank">
+                <img class=" img-fluid d-block w-100" src="../assets/images/instagram.png" alt="instagram" />
+              </a>
+              <a class="col-sm-1 " href="https://twitter.com/?lang=es" target="_blank">
+                <img class="img-fluid d-block w-100" src="../assets/images/twitter.png" alt="twitter" />
+              </a>
+              <a class="col-sm-1 " href="https://www.facebook.com/" target="_blank">
+                <img class="d-block w-100" src="../assets/images/facebook.png" alt="facebook" />
+              </a>
+              <a class="col-sm-1 " href="https://www.whatsapp.com/" target="_blank">
+                <img class="d-block w-100" src="../assets/images/whatsapp.png" alt="whatsapp" />
+              </a>
+            </div>
 
-        </section>
+            <h4 class="text-center">&copy 2022, MITCH todos los derechos reservados</h4>
 
+            <div class="text-center">
+             <label  for="suscripcion">Suscribite a nuestro newsletter:</label>
+             <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
+             <button type="submit">Enviar</button>
+            </div>
+        </div>
     </footer>
 </body>
 
