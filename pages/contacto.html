@@ -8,66 +8,85 @@
     <title>MCU-Contacto</title>
     <link rel="shortcut icon" href="../assets/images/favicon.ico" />
     <link rel="stylesheet" href="../css/style.css" />
+    <!--------------------------- bootstrap ------------------------------------------------------------->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <a class="grid-logo" href="../index.html">
-            <img class="grid-logo-item" src="../assets/images/mcu.png" alt="MCU-Home">
+    <header class="bg-black">
+        <a class=" container  " href="../index.html">
+            <img class="img-fluid" src="../assets/images/mcu.png" alt="MCU-Home" >
+          
         </a>
-        <h2 class="subtitulo">Un universo de peliculas Heroicas</h2>
 
-        <nav>
-            <ul class="estilo-ul">
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="../index.html">Home</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./peliculas.html">Peliculas</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./cronologia.html">Cronologia</a></li>
-                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <h2 class="bg-danger bg-gradient text-white text-center">Un universo de peliculas Heroicas</h2>
 
+        <nav class="navbar navbar-expand-sm bg-secondary text-black ">
+            <div class="container">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" href="./peliculas.html">Peliculas</a>
+                  <a class="nav-link" href="./cronologia.html">Cronologia</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main class="parallax">
-     
-        <section class="section-contacto">
-            <h2 class="font-contacto">Contacto</h2>
-            <form class="font-contacto form" action="#">
-                <label for="nombre">Ingrese su nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" />
-                
-                <label for="correo">Ingrese email:</label>
-                <input type="email" id="correo" name="correo" placeholder="Ingrese su email" />
-                
-                <label for="consulta">Ingrese su mensaje:</label>                
-                <textarea name="consulta" id="consulta"  cols="40" rows="10" placeholder="Consulta..."></textarea>
-                
-                <button type="submit">Enviar</button>
-                
-                <button type="reset">Limpiar</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <section class="footer">
-            <a href="https://www.instagram.com/" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/instagram.png" alt="instagram" />
-            </a>
-            <a href="https://twitter.com/?lang=es" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/twitter.png" alt="twitter" />
-            </a>
-            <a href="https://www.facebook.com/" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/facebook.png" alt="facebook" />
-            </a>
-            <a href="https://www.whatsapp.com/" target="_blank">
-                <img class="estilo-a-footer" src="../assets/images/whatsapp.png" alt="whatsapp" />
-            </a>
-            <h4>&copy 2022, MITCH todos los derechos reservados</h4>
-       
-            <label for="suscripcion">Suscribite a nuestro newsletter:</label>
-            <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
-            <button type="submit">Enviar</button>
 
-        </section>
+    <main class="parallax">
+
+        <div class="container ">
+            <div class="row p-2">
+                <div class=" col-sm-12 mb-3 text-white">
+                    <label for="formGroupExample" class="form-label ">Ingrese su Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su Nombre">
+                  </div>
+                  <div class="col-sm-12 mb-3 text-white">
+                    <label for="formGroupExampleInput2" class="form-label">Ingrese su Mail</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su Mail">
+                  </div>
+                  <div class="col-sm-12 form-floating p-3 ">
+                    <textarea class="form-control" placeholder="Deje su comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2"> Deje su comentario</label>
+                  </div>
+            </div>
+        
+    </main>
+
+    <footer class="bg-danger">
+        <div class="container p-2">
+            
+            <div class="row p-3 justify-content-center">
+              <a class="col-sm-1" href="https://www.instagram.com/" target="_blank">
+                <img class=" img-fluid d-block w-100" src="../assets/images/instagram.png" alt="instagram" />
+              </a>
+              <a class="col-sm-1 " href="https://twitter.com/?lang=es" target="_blank">
+                <img class="img-fluid d-block w-100" src="../assets/images/twitter.png" alt="twitter" />
+              </a>
+              <a class="col-sm-1 " href="https://www.facebook.com/" target="_blank">
+                <img class="d-block w-100" src="../assets/images/facebook.png" alt="facebook" />
+              </a>
+              <a class="col-sm-1 " href="https://www.whatsapp.com/" target="_blank">
+                <img class="d-block w-100" src="../assets/images/whatsapp.png" alt="whatsapp" />
+              </a>
+            </div>
+
+            <h4 class="text-center">&copy 2022, MITCH todos los derechos reservados</h4>
+
+            <div class="text-center">
+             <label  for="suscripcion">Suscribite a nuestro newsletter:</label>
+             <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
+             <button type="submit">Enviar</button>
+            </div>
+            
+        </div>
 
     </footer>
 
