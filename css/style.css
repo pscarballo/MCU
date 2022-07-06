@@ -51,27 +51,6 @@ h4{
 .section-table{
     background-color: rgba(0, 0, 0, 0.5); 
 }
-.table{
-    padding-bottom: 15px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-.table-thead-tr{
-    background-color: rgba(0, 0, 0, 0.3);
-    font-size: 22px;
-    color: rgba(255, 255, 255, 0.7);
-}
-.table-tbody-tr{
-    background-color: rgba(255, 0, 0, 0.7);
-    font-size: 20px;
-
-}
-.table-tbody-tr2{
-    background-color:  rgba(128, 128, 128, 0.5);
-    font-size: 20px;
-}
 
 .portada-peli{
     padding-top: 5px;
@@ -79,11 +58,11 @@ h4{
     height: 170px;
 }
 /* ------------------------------Pag Cronologia------------------------------------------------ */
-.h2-cronologia{
+/* .h2-cronologia{
     color: rgb(255, 255, 255);
     font-size: 25px;
-}
-.estilo-section-crono{
+} */
+/* .estilo-section-crono{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -96,11 +75,11 @@ h4{
     padding-top: 15px;
     padding-bottom: 20px;
     padding-left: 5px;
-}
-.crono-item{
+} */
+/* .crono-item{
     height: 90%;
      width: 500px; ;
-}
+} */
 /* ------------------------------------------Pag Contacto------------------------------------- */
 .font-contacto{
     color: rgb(255, 255, 255);
