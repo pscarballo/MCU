@@ -1,0 +1,86 @@
+[33mcommit 7ea5cd8f163b1f9306e8df490b45d952c5905479[m[33m ([m[1;36mHEAD -> [m[1;32mbootstrap[m[33m)[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Wed Jul 6 18:46:01 2022 -0300
+
+    cambios en pagina contacto
+
+[33mcommit c92b076ac6a95cb44b4989f2854df29d00eec66a[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Wed Jul 6 00:21:23 2022 -0300
+
+    cambios en paginas peliculas y cronologia
+
+[33mcommit 963c76773313d255b57fe521449f2600e29facd7[m[33m ([m[1;31morigin/bootstrap[m[33m)[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 23:33:18 2022 -0300
+
+    cambio de pagina peliculas
+
+[33mcommit 24d9398943a01f04d05457ea7288ff6fca63bfde[m
+Merge: e2fffe7 6da9e69
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 22:18:21 2022 -0300
+
+    Merge branch 'main' of https://github.com/pscarballo/MCU into bootstrap
+
+[33mcommit e2fffe7de6c152d091ac6dec2f26a708a384b6a1[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 20:22:48 2022 -0300
+
+     cambios en footer
+
+[33mcommit bc0fa4ee924dae3b3599538e2d6491afd2665540[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 20:20:38 2022 -0300
+
+     cambio en div video
+
+[33mcommit f244e5888620f15d2e73b65afdeed4e27055afe1[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 20:14:58 2022 -0300
+
+    cambios en el div de gif's
+
+[33mcommit a3e40546c270318de8717ef53df282da30d17721[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 20:01:04 2022 -0300
+
+     cambio en header
+
+[33mcommit 8008466a61f5f745d334fd19a2883f1e03e9bcf7[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Tue Jul 5 19:52:39 2022 -0300
+
+    agrego js y css para trabajar con bootstrap
+
+[33mcommit 6da9e699e257bc4a6f9979ec88b441c1f9d90ac9[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: pscarballo <104922329+pscarballo@users.noreply.github.com>
+Date:   Mon Jul 4 17:49:06 2022 -0300
+
+    Update README.md
+
+[33mcommit d878799131dd0108194ba26d38a33e7bdb18c2b2[m
+Author: pscarballo <104922329+pscarballo@users.noreply.github.com>
+Date:   Mon Jul 4 17:48:31 2022 -0300
+
+    Create README.md
+    
+    Se crea archivo README
+
+[33mcommit f0df1008e92856b60dc79edd1fadb9bee1654610[m[33m ([m[1;31morigin/transformaciones[m[33m, [m[1;32mtransformaciones[m[33m, [m[1;32mmain[m[33m)[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Mon Jul 4 17:09:44 2022 -0300
+
+     rotacion en gif
+
+[33mcommit 989c9ca92af1f14d2fb2aff860094e563522a8fb[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Mon Jul 4 16:04:31 2022 -0300
+
+    agrego transformaciones y animaciones
+
+[33mcommit 2a6f0459e8822121f9530212e3ee252459523d31[m
+Author: Pablo Carballo <pscarballo@gmail.com>
+Date:   Mon Jul 4 15:38:57 2022 -0300
+
+    Proyecto Inicial Base
