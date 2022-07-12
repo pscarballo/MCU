@@ -47,7 +47,7 @@ body {
 
 /* ------------------------------media---------------------------------------------------------- */
 
-@media (max-width:1100px) {
+/* @media (max-width:1100px) {
     .estilo-section-div1{
         grid-template-columns: 500px 300px;
     }
@@ -107,7 +107,7 @@ body {
     /* body{
         font-size: 20px;
     } */
-    .estilo-section-div1{
+    /* .estilo-section-div1{
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     }
@@ -146,7 +146,7 @@ body {
    .table-thead-tr{
     font-size: 18px;
     }
-}
+} */ 
 
 
 
