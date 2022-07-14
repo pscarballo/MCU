@@ -1,6 +1,6 @@
 .subtitulo {
-    background-color: rgba(255, 0, 0, 0.9); 
-    background-image: radial-gradient(circle, red, black);
+    background-color: $bgRojo; 
+    background-image: $bgGradiente;
     text-align: center;
     font-size: 30px;
     color: white;
@@ -34,7 +34,7 @@ h2{
     padding-top: 4px;
     padding-bottom: 4px;
     height: 35px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $bgHex;
     
    
 }
