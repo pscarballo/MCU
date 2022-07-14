@@ -8,66 +8,49 @@
     <title>MCU-Home</title>
     <link rel="shortcut icon" href="./assets/images/favicon.ico" />
     <link rel="stylesheet" href="./css/style.css" />
-    <!--------------------------- bootstrap ------------------------------------------------------------->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <script src="./js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body >
-    <header class="bg-black">
-        <div class=" container " href="./index.html">
-            <img class="img-fluid" src="./assets/images/mcu.png" alt="MCU-Home" >
-        </div>
-
-        <h2 class="bg-danger bg-gradient text-white text-center opacity-75">Un universo de peliculas Heroicas</h2>
-
-        <nav class="navbar navbar-expand-sm bg-secondary text-black  ">
-            <div class="container ">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ">
-                  <a class="nav-link active shadow bg-light bg-opacity-50 " aria-current="page" href="./index.html">Home</a>
-                  <a class="nav-link shadow bg-light bg-opacity-50   " href="./pages/peliculas.html">Peliculas</a>
-                  <a class="nav-link shadow bg-light bg-opacity-50 " href="./pages/cronologia.html">Cronologia</a>
-                  <a class="nav-link shadow bg-light bg-opacity-50 " href="./pages/contacto.html">Contacto</a>
-                </div>
-              </div>
-            </div>
+<body>
+    <header>
+        <a class="grid-logo" href="./index.html">
+            <img class="grid-logo-item" src="./assets/images/mcu.png" alt="MCU-Home" >
+        </a>
+        <h2 class="subtitulo">Un universo de peliculas Heroicas</h2>
+        <nav>
+            <ul class="estilo-ul">
+                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./index.html">Home</a></li>
+                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./pages/peliculas.html">Peliculas</a></li>
+                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./pages/cronologia.html">Cronologia</a></li>
+                <li class="estilo-nav-li boton-nav"><a class="estilo-a" href="./pages/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
-
-    <main class="parallax ">
-
-        <div class="container ">
-            <div class="row p-2">
-                <a class="col-sm-7 grid__item" href="https://en.wikipedia.org/wiki/Tony_Stark_(Marvel_Cinematic_Universe)" target="_blank">
-                 <img class="d-block w-100 h-100" src="./assets/gif/ironman.gif" alt="ironman"  />
-                </a>
-                <a class="col-sm-5 grid__item" href="https://en.wikipedia.org/wiki/Steve_Rogers_(Marvel_Cinematic_Universe)" target="_blank">
-                    <img class="d-block w-100 h-100" src="./assets/gif/capitan.gif" alt="capitan" />
-                </a>
-            </div>
-            <div class="row p-2 ">
-              <a class="col-sm-3 grid__item" href="https://en.wikipedia.org/wiki/Thor_(Marvel_Cinematic_Universe)" target="_blank">
-                <img class="d-block w-100 h-100"  src="./assets/gif/thor.gif" alt="thor"  />
-              </a>
-              <a class="col-sm-3 grid__item" href="https://en.wikipedia.org/wiki/Bruce_Banner_(Marvel_Cinematic_Universe)" target="_blank">
-                <img class="d-block w-100 h-100"  src="./assets/gif/hulk.gif" alt="hulk"  />
-              </a>
-              <a class="col-sm-6 grid__item" href="https://en.wikipedia.org/wiki/Natasha_Romanoff_(Marvel_Cinematic_Universe)" target="_blank">
-                <img class="d-block w-100 h-100 "  src="./assets/gif/nat.gif" alt="natasha"  />
-              </a>
-            </div>
-          </div>    
+    <main class="parallax">
         <div >
 
-            
+            <section class="estilo-section-div1" >
+                <a class="grid__item" href="https://en.wikipedia.org/wiki/Tony_Stark_(Marvel_Cinematic_Universe)" target="_blank">
+                    <img class="grid__item-img"  src="./assets/gif/ironman.gif" alt="ironman"  />
+                </a>
+                <a class="grid__item" href="https://en.wikipedia.org/wiki/Steve_Rogers_(Marvel_Cinematic_Universe)" target="_blank">
+                    <img class="grid__item-img" src="./assets/gif/capitan.gif" alt="capitan" />
+                </a>
+            </section>
+
+            <section class="estilo-section-div2" >
+                <a class="grid__item" href="https://en.wikipedia.org/wiki/Thor_(Marvel_Cinematic_Universe)" target="_blank">
+                    <img class="grid__item-img"  src="./assets/gif/thor.gif" alt="thor"  />
+                </a>
+                <a class="grid__item" href="https://en.wikipedia.org/wiki/Bruce_Banner_(Marvel_Cinematic_Universe)" target="_blank">
+                    <img class="grid__item-img"  src="./assets/gif/hulk.gif" alt="hulk"  />
+                </a>
+                <a class="grid__item" href="https://en.wikipedia.org/wiki/Natasha_Romanoff_(Marvel_Cinematic_Universe)" target="_blank">
+                    <img class="grid__item-img"  src="./assets/gif/nat.gif" alt="natasha"  />
+                </a>
+            </section>
         </div>
-        <section class="container">
-            <p class="lead text-white">El Universo cinematográfico de Marvel (MCU; en inglés, Marvel Cinematic Universe) es una
+        <section>
+            <p class="texto-p">El Universo cinematográfico de Marvel (MCU; en inglés, Marvel Cinematic Universe) es una
                 franquicia de
                 medios y un universo
                 compartido, centrada en una serie de películas de superhéroes producidas independientemente por Marvel
@@ -83,43 +66,33 @@
                 algo no visto antes en el cine de superhéroes.
             </p>
         </section>
-        <div class="container p-2">
-            <div class="row p-6">
-              <div class="col-sm-6">
-                <video class="container" src="./assets/videos/Avengers Endgame.mp4" controls autoplay muted loop></video>
-              </div>
-              <div class="col-sm-6">
-                <video class="container" src="./assets/videos/Black Widow.mp4" controls autoplay muted loop></video>
-              </div>
-            </div>
-        </div>
+        <section class="grid-video">
+            <video class="grid-video-item" src="./assets/videos/Avengers Endgame.mp4" controls autoplay muted loop></video>
+            <video class="grid-video-item" src="./assets/videos/Black Widow.mp4" controls autoplay muted loop></video>
+        </section>
     </main>
-    <footer class="bg-danger opacity-60">
-        <div class="container p-2">
-            
-            <div class="row p-3 justify-content-center">
-              <a class="col-1 estilo-a-footer" href="https://www.instagram.com/" target="_blank">
-                <img class=" img-fluid d-block w-100" src="./assets/images/instagram.png" alt="instagram" />
-              </a>
-              <a class="col-1 estilo-a-footer " href="https://twitter.com/?lang=es" target="_blank">
-                <img class="img-fluid d-block w-100" src="./assets/images/twitter.png" alt="twitter" />
-              </a>
-              <a class="col-1 estilo-a-footer " href="https://www.facebook.com/" target="_blank">
-                <img class="d-block w-100" src="./assets/images/facebook.png" alt="facebook" />
-              </a>
-              <a class="col-1 estilo-a-footer" href="https://www.whatsapp.com/" target="_blank">
-                <img class="d-block w-100" src="./assets/images/whatsapp.png" alt="whatsapp" />
-              </a>
-            </div>
+    <footer>
+        <section class="footer">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="estilo-a-footer" src="./assets/images/instagram.png" alt="instagram" />
+            </a>
+            <a href="https://twitter.com/?lang=es" target="_blank">
+                <img class="estilo-a-footer" src="./assets/images/twitter.png" alt="twitter" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="estilo-a-footer" src="./assets/images/facebook.png" alt="facebook" />
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <img class="estilo-a-footer" src="./assets/images/whatsapp.png" alt="whatsapp" />
+            </a>
+            <h4>&copy 2022, MITCH todos los derechos reservados</h4>
+         
+            <label for="suscripcion">Suscribite a nuestro newsletter:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
+            <button type="submit">Enviar</button>
 
-            <h4 class="text-center p-4">&copy 2022, MITCH todos los derechos reservados</h4>
+        </section>
 
-            <div class="text-center">
-             <label  for="suscripcion">Suscribite a nuestro newsletter:</label>
-             <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
-             <button type="submit">Enviar</button>
-            </div>
-        </div>
     </footer>
 </body>
 

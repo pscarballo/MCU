@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Marvel;
+    src: url('../assets/fonts/kenyan\ coffee\ rg.ttf');
+    font-style: normal;
+}
+body {
+    font-family: 'Marvel'
+}
+.parallax {
+    
+    background-image: url('../assets/images/Wallpaper.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
