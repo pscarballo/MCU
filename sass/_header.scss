@@ -45,11 +45,35 @@ h2{
     padding: 2px;
     border: solid;
 }
-.boton-nav {
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: none;
-    height: 20px;
-    width: 100px;
+// .boton-nav {
+//     background-color: rgba(0, 0, 0, 0);
+//     text-decoration: none;
+//     height: 20px;
+//     width: 100px;
+// }
+
+.btn-base{
+    
+     text-decoration: none;
+     height: 20px;
+     width: 100px;
+}
+
+.btn-index {
+    @extend .btn-base;
+    background-color: aqua;
+}
+.btn-peliculas{
+    @extend .btn-base;
+    background-color: aquamarine;
+}
+.btn-cronologia{
+    @extend .btn-base;
+    background-color: cadetblue;
+}
+.btn-contacto{
+    @extend .btn-base;
+    background-color: cornflowerblue;
 }
 
 

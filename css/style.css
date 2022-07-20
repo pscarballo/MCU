@@ -55,11 +55,22 @@ h2 {
   padding: 2px;
   border: solid; }
 
-.boton-nav {
-  background-color: rgba(0, 0, 0, 0);
+.btn-base, .btn-index, .btn-peliculas, .btn-cronologia, .btn-contacto {
   text-decoration: none;
   height: 20px;
   width: 100px; }
+
+.btn-index {
+  background-color: aqua; }
+
+.btn-peliculas {
+  background-color: aquamarine; }
+
+.btn-cronologia {
+  background-color: cadetblue; }
+
+.btn-contacto {
+  background-color: cornflowerblue; }
 
 .estilo-a {
   text-decoration: none;
