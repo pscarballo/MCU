@@ -122,6 +122,30 @@ h2 {
     width: 80%;
     height: 80%; }
 
+.link-instagram {
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: pink; }
+
+.link-twitter {
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: blue; }
+
+.link-facebook {
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #4444ee; }
+
+.link-whatsapp {
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: green; }
+
 .footer {
   background-image: radial-gradient(circle, red, black);
   text-align: center;

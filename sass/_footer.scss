@@ -1,3 +1,16 @@
+
+
+@each $nombre, $color in $redesSociales {
+    .link-#{$nombre} {
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 15px;
+
+    background-color: $color
+    }
+}
+
+
 .footer {
     
     background-image: $bgGradiente;
