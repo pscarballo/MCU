@@ -58,7 +58,10 @@ h2 {
 .btn-base, .btn-index, .btn-peliculas, .btn-cronologia, .btn-contacto {
   text-decoration: none;
   height: 20px;
-  width: 100px; }
+  width: 100px;
+  transition: all 0.3s; }
+  .btn-base:hover, .btn-index:hover, .btn-peliculas:hover, .btn-cronologia:hover, .btn-contacto:hover {
+    opacity: 0.5; }
 
 .btn-index {
   background-color: aqua; }
