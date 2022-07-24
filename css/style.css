@@ -82,7 +82,6 @@ h2 {
 .estilo-section-div1 {
   display: grid;
   background-color: rgba(0, 0, 0, 0.5);
-  margin-left: 10px;
   padding-top: 10px;
   grid-template-columns: 650px 450px;
   grid-template-rows: 1fr;
@@ -94,7 +93,6 @@ h2 {
 .estilo-section-div2 {
   display: grid;
   background-color: rgba(0, 0, 0, 0.5);
-  margin-left: 10px;
   grid-template-columns: 275px 275px 550px;
   grid-template-rows: 1fr;
   justify-items: center;
@@ -170,8 +168,9 @@ h2 {
   background-image: radial-gradient(circle, red, black);
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
-  height: 120px; }
+  height: 150px; }
 
 .estilo-a-footer {
   width: 50px;
@@ -183,3 +182,31 @@ h2 {
 
 h4 {
   padding: 10px; }
+
+.portada-peli {
+  padding-top: 5px;
+  width: 120px;
+  height: 170px; }
+
+.section-table {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.table {
+  padding-bottom: 15px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.table-thead-tr {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.7); }
+
+.table-tbody-tr {
+  background-color: rgba(255, 0, 0, 0.7);
+  font-size: 20px; }
+
+.table-tbody-tr2 {
+  background-color: rgba(128, 128, 128, 0.5);
+  font-size: 20px; }
