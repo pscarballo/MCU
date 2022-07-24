@@ -232,3 +232,32 @@ h4 {
 .crono-item {
   height: 90%;
   width: 500px; }
+
+.font-contacto {
+  color: white;
+  font-size: 22; }
+
+.section-contacto {
+  width: 100%;
+  height: 500px; }
+
+.form {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem; }
+
+.form button {
+  padding: 0.5em 1em;
+  border: black;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer; }

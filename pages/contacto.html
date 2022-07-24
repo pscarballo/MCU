@@ -31,53 +31,49 @@
 
     <main class="parallax">
 
-        <div class="container ">
-            <div class="row p-2">
-                <div class=" col-sm-12 mb-3 text-white">
-                    <label for="formGroupExample" class="form-label ">Ingrese su Nombre</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su Nombre">
-                  </div>
-                  <div class="col-sm-12 mb-3 text-white">
-                    <label for="formGroupExampleInput2" class="form-label">Ingrese su Mail</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su Mail">
-                  </div>
-                  <div class="col-sm-12 form-floating p-3 ">
-                    <textarea class="form-control" placeholder="Deje su comentario" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2"> Deje su comentario</label>
-                  </div>
-            </div>
+      <section class="section-contacto">
+        <h2 class="font-contacto">Contacto</h2>
+        <form class="font-contacto form" action="#">
+            <label for="nombre">Ingrese su nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" />
+            
+            <label for="correo">Ingrese email:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su email" />
+            
+            <label for="consulta">Ingrese su mensaje:</label>                
+            <textarea name="consulta" id="consulta"  cols="40" rows="10" placeholder="Consulta..."></textarea>
+            
+            <button type="submit">Enviar</button>
+            
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
         
     </main>
 
-    <footer class="bg-danger">
-        <div class="container p-2">
-            
-            <div class="row p-3 justify-content-center">
-              <a class="col-sm-1 estilo-a-footer" href="https://www.instagram.com/" target="_blank">
-                <img class=" img-fluid d-block w-100" src="../assets/images/instagram.png" alt="instagram" />
-              </a>
-              <a class="col-sm-1 estilo-a-footer" href="https://twitter.com/?lang=es" target="_blank">
-                <img class="img-fluid d-block w-100" src="../assets/images/twitter.png" alt="twitter" />
-              </a>
-              <a class="col-sm-1 estilo-a-footer" href="https://www.facebook.com/" target="_blank">
-                <img class="d-block w-100" src="../assets/images/facebook.png" alt="facebook" />
-              </a>
-              <a class="col-sm-1 estilo-a-footer" href="https://www.whatsapp.com/" target="_blank">
-                <img class="d-block w-100" src="../assets/images/whatsapp.png" alt="whatsapp" />
-              </a>
-            </div>
+    <footer>
+      <section class="footer">
+          <a href="https://www.instagram.com/" target="_blank">
+              <img class="estilo-a-footer link-instagram" src="../assets/images/instagram.png" alt="instagram" />
+          </a>
+          <a href="https://twitter.com/?lang=es" target="_blank">
+              <img class="estilo-a-footer link-twitter" src="../assets/images/twitter.png" alt="twitter" />
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+              <img class="estilo-a-footer link-facebook" src="../assets/images/facebook.png" alt="facebook" />
+          </a>
+          <a href="https://www.whatsapp.com/" target="_blank">
+              <img class="estilo-a-footer link-whatsapp" src="../assets/images/whatsapp.png" alt="whatsapp" />
+          </a>
+          <h4>&copy 2022, MITCH todos los derechos reservados</h4>
+       
+          <label for="suscripcion">Suscribite a nuestro newsletter:</label>
+          <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
+          <button type="submit">Enviar</button>
 
-            <h4 class="text-center">&copy 2022, MITCH todos los derechos reservados</h4>
+      </section>
 
-            <div class="text-center">
-             <label  for="suscripcion">Suscribite a nuestro newsletter:</label>
-             <input type="email" id="correo" name="correo" placeholder="Ingrese su mail" />
-             <button type="submit">Enviar</button>
-            </div>
-            
-        </div>
-
-    </footer>
+  </footer>
 
 </body>
 
