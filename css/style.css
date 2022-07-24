@@ -210,3 +210,25 @@ h4 {
 .table-tbody-tr2 {
   background-color: rgba(128, 128, 128, 0.5);
   font-size: 20px; }
+
+.h2-cronologia {
+  color: white;
+  font-size: 25px; }
+
+.estilo-section-crono {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 5px; }
+
+.crono-item {
+  height: 90%;
+  width: 500px; }
