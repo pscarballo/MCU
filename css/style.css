@@ -127,7 +127,7 @@ h2 {
   font-style: italic; }
 
 .grid__video {
-  height: 350px;
+  padding: 2px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -231,7 +231,7 @@ h4 {
 
 .crono-item {
   height: 90%;
-  width: 500px; }
+  width: 90%; }
 
 .font-contacto {
   color: white;
@@ -261,3 +261,66 @@ h4 {
   margin-top: 10px;
   background: rgba(255, 255, 255, 0.8);
   cursor: pointer; }
+
+@media (max-width: 1100px) {
+  .estilo-section-div1 {
+    grid-template-columns: 500px 300px; }
+  .estilo-section-div2 {
+    grid-template-columns: 230px 230px 340px; }
+  .grid__video-item {
+    margin: 1px;
+    width: 90%;
+    height: 90%; }
+  .crono-item {
+    height: 350px; } }
+
+@media (max-width: 768px) {
+  .estilo-section-div1 {
+    grid-template-columns: 400px 250px; }
+  .estilo-section-div2 {
+    grid-template-columns: 180px 180px 290px; }
+  .grid__video {
+    height: 550px;
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; }
+  .estilo-ul {
+    justify-content: center;
+    height: 40px; }
+  .estilo-section-crono {
+    grid-template-columns: 1fr; }
+  .footer {
+    height: 150px; } }
+
+@media (max-width: 650px) {
+  .boton-nav {
+    height: 28px;
+    width: 50px; }
+  .estilo-section-div1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr; }
+  .estilo-section-div2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr; }
+  .grid__video {
+    height: 500px; } }
+
+@media (max-width: 400px) {
+  .crono-item {
+    width: 330px; }
+  .portada-peli {
+    width: 100px;
+    height: 150px; }
+  .grid__video {
+    height: 300px; } }
+
+@media (max-width: 380px) {
+  .portada-peli {
+    width: 80px;
+    height: 130px; }
+  .crono-item {
+    font-size: 18px; }
+  .table-thead-tr {
+    font-size: 18px; } }
