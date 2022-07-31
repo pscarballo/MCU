@@ -9,7 +9,6 @@
     }
 }
 
-
 .footer {
     
     background-image: $bgGradiente;
@@ -24,11 +23,11 @@
     width: 50px;
     height: 50px;
     transition: transform 0.3s;
- }
 
- .estilo-a-footer:hover{
-     transform: translateY(-15px);
- }
+    &:hover{
+        transform: translateY(-15px);
+    }
+}
 
 h4{
     padding: 10px;
