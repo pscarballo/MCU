@@ -4,8 +4,10 @@
     height: 170px;
 }
 .section-table{
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+
 
 .table{
     padding-bottom: 15px;
@@ -18,15 +20,17 @@
 .table-thead-tr{
     background-color: rgba(0, 0, 0, 0.3);
     font-size: 22px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);   
 }
 
 .table-tbody-tr{
     background-color: rgba(255, 0, 0, 0.7);
     font-size: 20px;
+    color: white;
 }
 
 .table-tbody-tr2{
     background-color:  rgba(128, 128, 128, 0.5);
     font-size: 20px;
+    color: white;
 }
