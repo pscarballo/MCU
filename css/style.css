@@ -85,6 +85,7 @@ h1 {
   display: grid;
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 10px;
+  padding-left: 5px;
   grid-template-columns: 650px 450px;
   grid-template-rows: 1fr;
   justify-items: center;
@@ -100,7 +101,8 @@ h1 {
   justify-items: center;
   align-items: center;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  padding-left: 5px; }
 
 .grid__item {
   height: 100%;
@@ -237,7 +239,7 @@ h4 {
   padding-left: 5px; }
 
 .crono-item {
-  padding: 15px;
+  padding: 20px;
   height: 90%;
   width: 90%; }
 
@@ -328,6 +330,9 @@ h4 {
     height: 300px; } }
 
 @media (max-width: 380px) {
+  .estilo-a-footer {
+    width: 40px;
+    height: 40px; }
   .portada-peli {
     width: 80px;
     height: 130px; }

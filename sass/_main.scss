@@ -3,6 +3,7 @@
     display: grid;
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 10px;
+    padding-left: 5px;
     grid-template-columns: 650px 450px;
     grid-template-rows: 1fr;
     justify-items: center;
@@ -20,6 +21,7 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    padding-left: 5px;
     
 }
 

@@ -70,18 +70,23 @@
     }
 }
 @media (max-width: 400px){
+    
     .crono-item{
         width: 330px; 
-   }
-   .portada-peli{
+    }
+    .portada-peli{
     width: 100px;
     height: 150px;
-   }
+    }
     .grid__video{
      height: 300px;
-   }
+    }
 }
 @media (max-width: 380px){
+    .estilo-a-footer{    
+        width: 40px;
+        height: 40px;
+    }
     .portada-peli{
         width: 80px;
         height: 130px;
