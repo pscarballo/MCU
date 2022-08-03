@@ -86,7 +86,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5);
   padding-top: 10px;
   padding-left: 5px;
-  grid-template-columns: 650px 450px;
+  grid-template-columns: 600px 400px;
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
@@ -96,7 +96,7 @@ h1 {
 .estilo-section-div2 {
   display: grid;
   background-color: rgba(0, 0, 0, 0.5);
-  grid-template-columns: 275px 275px 550px;
+  grid-template-columns: 250px 250px 500px;
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
@@ -197,6 +197,9 @@ h4 {
 
 .section-table {
   background-color: rgba(0, 0, 0, 0.5); }
+
+h2 {
+  color: #ffffff; }
 
 .table {
   padding-bottom: 15px;
