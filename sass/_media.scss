@@ -14,16 +14,16 @@
         height: 90%;
     }
     .crono-item{ 
-        height: 350px;
+        height: 400px;
     }
    
 }
 @media (max-width: 768px){
     .section-div1{
-        grid-template-columns: 400px 250px;
+       grid-template-columns: 400px 250px;
     }
     .section-div2{
-    grid-template-columns: 180px 180px 290px;
+      grid-template-columns: 180px 180px 290px;
     }
     .grid__video{
        height: 550px;
