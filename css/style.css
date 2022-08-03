@@ -229,7 +229,7 @@ h2 {
   align-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 15px;
   padding-bottom: 20px;
   padding-left: 5px; }
@@ -270,6 +270,8 @@ h2 {
   cursor: pointer; }
 
 @media (max-width: 1100px) {
+  .estilo-section-crono {
+    font-size: 21px; }
   .section-div1 {
     grid-template-columns: 500px 300px; }
   .section-div2 {
