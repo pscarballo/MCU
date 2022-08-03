@@ -24,14 +24,15 @@ h2{
     color: rgba(255, 255, 255, 0.7);   
 }
 
-.table-tbody-tr{
-    background-color: rgba(255, 0, 0, 0.7);
+.table-base{
     font-size: 20px;
     color: white;
 }
-
-.table-tbody-tr2{
+.tbody-tr{
+    @extend .table-base;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+.tbody-tr2{
+    @extend .table-base;
     background-color:  rgba(128, 128, 128, 0.5);
-    font-size: 20px;
-    color: white;
 }

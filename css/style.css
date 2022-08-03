@@ -35,10 +35,9 @@ h1 {
   align-content: center;
   justify-items: center;
   align-items: center; }
-
-.grid-logo-item {
-  height: 100%;
-  width: 100%; }
+  .grid-logo-item {
+    height: 100%;
+    width: 100%; }
 
 .estilo-ul {
   display: flex;
@@ -81,28 +80,22 @@ h1 {
   color: #000000;
   font-style: italic; }
 
-.estilo-section-div1 {
+.estilo-section-base, .section-div1, .section-div2 {
   display: grid;
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 10px;
-  padding-left: 5px;
-  grid-template-columns: 600px 400px;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center; }
-
-.estilo-section-div2 {
-  display: grid;
-  background-color: rgba(0, 0, 0, 0.5);
-  grid-template-columns: 250px 250px 500px;
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
   justify-content: center;
   align-content: center;
   padding-left: 5px; }
+
+.section-div1 {
+  padding-top: 10px;
+  grid-template-columns: 600px 400px; }
+
+.section-div2 {
+  grid-template-columns: 250px 250px 500px; }
 
 .grid__item {
   height: 100%;
@@ -213,15 +206,15 @@ h2 {
   font-size: 22px;
   color: rgba(255, 255, 255, 0.7); }
 
-.table-tbody-tr {
-  background-color: rgba(255, 0, 0, 0.7);
+.table-base, .tbody-tr, .tbody-tr2 {
   font-size: 20px;
   color: white; }
 
-.table-tbody-tr2 {
-  background-color: rgba(128, 128, 128, 0.5);
-  font-size: 20px;
-  color: white; }
+.tbody-tr {
+  background-color: rgba(255, 0, 0, 0.7); }
+
+.tbody-tr2 {
+  background-color: rgba(128, 128, 128, 0.5); }
 
 .h2-cronologia {
   color: white;
@@ -277,9 +270,9 @@ h2 {
   cursor: pointer; }
 
 @media (max-width: 1100px) {
-  .estilo-section-div1 {
+  .section-div1 {
     grid-template-columns: 500px 300px; }
-  .estilo-section-div2 {
+  .section-div2 {
     grid-template-columns: 230px 230px 340px; }
   .grid__video-item {
     margin: 1px;
@@ -289,9 +282,9 @@ h2 {
     height: 350px; } }
 
 @media (max-width: 768px) {
-  .estilo-section-div1 {
+  .section-div1 {
     grid-template-columns: 400px 250px; }
-  .estilo-section-div2 {
+  .section-div2 {
     grid-template-columns: 180px 180px 290px; }
   .grid__video {
     height: 550px;
@@ -314,10 +307,10 @@ h2 {
   .boton-nav {
     height: 28px;
     width: 50px; }
-  .estilo-section-div1 {
+  .section-div1 {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr; }
-  .estilo-section-div2 {
+  .section-div2 {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr; }
   .grid__video {

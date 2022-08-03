@@ -1,28 +1,25 @@
-.estilo-section-div1{
+.estilo-section-base{
   
     display: grid;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 10px;
-    padding-left: 5px;
-    grid-template-columns: 600px 400px;
+    background-color: rgba(0, 0, 0, 0.5);    
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
     justify-content: center;
     align-content: center;
+    padding-left: 5px;
     
 }
-.estilo-section-div2{
-    display: grid;
-    background-color: rgba(0, 0, 0, 0.5);
-    grid-template-columns: 250px 250px 500px;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    padding-left: 5px;
+.section-div1{
+  @extend .estilo-section-base;
+    padding-top: 10px;    
+    grid-template-columns: 600px 400px;
     
+}
+
+.section-div2{
+  @extend .estilo-section-base; 
+    grid-template-columns: 250px 250px 500px;  
 }
 
 .grid__item{

@@ -1,8 +1,8 @@
 @media (max-width:1100px) {
-    .estilo-section-div1{
+    .section-div1{
         grid-template-columns: 500px 300px;
     }
-    .estilo-section-div2{
+    .section-div2{
     grid-template-columns: 230px 230px 340px;
     }
     .grid__video-item{
@@ -16,10 +16,10 @@
    
 }
 @media (max-width: 768px){
-    .estilo-section-div1{
+    .section-div1{
         grid-template-columns: 400px 250px;
     }
-    .estilo-section-div2{
+    .section-div2{
     grid-template-columns: 180px 180px 290px;
     }
     .grid__video{
@@ -56,11 +56,11 @@
         width: 50px;
     }
 
-    .estilo-section-div1{
+    .section-div1{
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     }
-    .estilo-section-div2{
+    .section-div2{
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     }
@@ -91,7 +91,7 @@
         width: 80px;
         height: 130px;
     }
-     .crono-item{
+    .crono-item{
         width: 280px;
         font-size: 18px;
     }
