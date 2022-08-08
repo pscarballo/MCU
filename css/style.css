@@ -57,7 +57,8 @@ h1 {
 
 .btn-base, .btn-index, .btn-peliculas, .btn-cronologia, .btn-contacto {
   text-decoration: none;
-  height: 20px;
+  color: #ffffff;
+  height: 25px;
   width: 100px;
   transition: all 0.3s; }
   .btn-base:hover, .btn-index:hover, .btn-peliculas:hover, .btn-cronologia:hover, .btn-contacto:hover {
@@ -73,12 +74,14 @@ h1 {
   background-color: #5C49C6; }
 
 .btn-contacto {
-  background-color: #7B6FDE; }
+  background-color: #6359c0; }
 
 .estilo-a {
   text-decoration: none;
-  color: #000000;
-  font-style: italic; }
+  color: #ffffff;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: lighter; }
 
 .estilo-section-base, .section-div1, .section-div2 {
   display: grid;
@@ -181,12 +184,17 @@ h1 {
     transform: translateY(-15px); }
 
 h4 {
-  padding: 10px; }
+  padding: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: lighter; }
 
 .portada-peli {
   padding-top: 5px;
   width: 120px;
   height: 170px; }
+  .portada-peli:hover {
+    filter: grayscale(80%); }
 
 .section-table {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -241,7 +249,8 @@ h2 {
 
 .font-contacto {
   color: white;
-  font-size: 22; }
+  font-size: 22;
+  font-weight: lighter; }
 
 .section-contacto {
   background-color: rgba(255, 0, 0, 0.4);

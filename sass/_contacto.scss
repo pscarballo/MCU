@@ -1,6 +1,7 @@
 .font-contacto{
     color: rgb(255, 255, 255);
     font-size: 22;
+    font-weight: lighter;
 }
 .section-contacto{
     background-color: rgba(255, 0, 0, 0.4);
@@ -10,8 +11,7 @@
 .form {
     width: 90%;
     max-width: 600px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
     display: flex;
     flex-direction: column;
     justify-content: center;

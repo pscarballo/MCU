@@ -2,6 +2,8 @@
     padding-top: 5px;
     width: 120px;
     height: 170px;
+
+    &:hover {filter: grayscale(80%);}
 }
 .section-table{
     background-color: rgba(0, 0, 0, 0.5);

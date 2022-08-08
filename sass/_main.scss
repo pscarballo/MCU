@@ -1,5 +1,4 @@
 .estilo-section-base{
-  
     display: grid;
     background-color: rgba(0, 0, 0, 0.5);    
     grid-template-rows: 1fr;
@@ -7,14 +6,13 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-left: 5px;
-    
+    padding-left: 5px;    
 }
+
 .section-div1{
   @extend .estilo-section-base;
     padding-top: 10px;    
-    grid-template-columns: 600px 400px;
-    
+    grid-template-columns: 600px 400px;  
 }
 
 .section-div2{
@@ -37,7 +35,6 @@
     }
 }
 
-
 @mixin texto-base ($colorFondo, $colorTexto) {
     padding: 15px;
     background-color: $colorFondo;
@@ -50,13 +47,11 @@
 }
 
 .texto1{
-    @include texto-base(rgba(250, 250, 250, 0.8), rgba(247, 6, 6, 0.9));
-    
+    @include texto-base(rgba(250, 250, 250, 0.8), rgba(247, 6, 6, 0.9)); 
 }
 
 .texto2{
-    @include texto-base(rgba(243, 46, 46, 0.8), rgba(255, 255, 255, 0.9));
-    
+    @include texto-base(rgba(243, 46, 46, 0.8), rgba(255, 255, 255, 0.9));   
 }
 
 .grid__video{
