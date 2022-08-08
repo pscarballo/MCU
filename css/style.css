@@ -325,7 +325,9 @@ h2 {
   .grid__video {
     height: 500px; }
   .estilo-a {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .table {
+    font-size: 20px; } }
 
 @media (max-width: 400px) {
   .portada-peli {
