@@ -1,16 +1,17 @@
 .subtitulo {
-    background-color: $bgRojo; 
+    background-color: $bgRojo;
     background-image: $bgGradiente;
     text-align: center;
     font-size: 30px;
 }
-h1{
-    width: 100%;  
+
+h1 {
+    width: 100%;
     color: white;
     font-style: italic;
 }
 
-.grid-logo{
+.grid-logo {
     display: grid;
     background-color: black;
     grid-template-columns: 1fr;
@@ -18,9 +19,9 @@ h1{
     justify-content: center;
     align-content: center;
     justify-items: center;
-    align-items: center;    
-    
-    &-item{
+    align-items: center;
+
+    &-item {
         height: 100%;
         width: 100%;
     }
@@ -34,7 +35,7 @@ h1{
     padding-top: 4px;
     padding-bottom: 4px;
     height: 35px;
-    background-color: $bgHex;  
+    background-color: $bgHex;
 }
 
 .estilo-nav-li {
@@ -45,39 +46,42 @@ h1{
     border: solid;
 }
 
-.btn-base{ 
+.btn-base {
     text-decoration: none;
     color: #ffffff;
-    height: 25px;
-    width: 100px;
+    height: 22px;
+    width: 95px;
     transition: $transicion;
 
-    &:hover{
+    &:hover {
         opacity: 0.5;
     }
 }
 
 .btn-index {
     @extend .btn-base;
-    background-color:#302e7c;
+    background-color: #302e7c;
 }
-.btn-peliculas{
+
+.btn-peliculas {
     @extend .btn-base;
     background-color: #453AA4;
 }
-.btn-cronologia{
+
+.btn-cronologia {
     @extend .btn-base;
     background-color: #5C49C6;
 }
-.btn-contacto{
+
+.btn-contacto {
     @extend .btn-base;
     background-color: #6359c0;
 }
 
-.estilo-a{
+.estilo-a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: lighter;
 }

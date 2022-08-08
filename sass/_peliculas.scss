@@ -1,40 +1,41 @@
-.portada-peli{
+.portada-peli {
     padding-top: 5px;
     width: 120px;
     height: 170px;
 
-    &:hover {filter: grayscale(80%);}
-}
-.section-table{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-h2{
-    color:  #ffffff;
+    &:hover {
+        filter: grayscale(80%);
+    }
 }
 
-.table{
+.section-table {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.table {
     padding-bottom: 15px;
     width: 80%;
+    color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.table-thead-tr{
-    background-color: rgba(0, 0, 0, 0.3);
-    font-size: 22px;
-    color: rgba(255, 255, 255, 0.7);   
+.table-base {
+    font-size: 20px;
+    color: #ffffff;
 }
 
-.table-base{
-    font-size: 20px;
-    color: white;
-}
-.tbody-tr{
+.tbody-tr {
     @extend .table-base;
     background-color: rgba(255, 0, 0, 0.7);
 }
-.tbody-tr2{
+
+.tbody-tr2 {
     @extend .table-base;
-    background-color:  rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.5);
 }
