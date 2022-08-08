@@ -15,6 +15,9 @@ body {
   background-size: 100%;
   background-attachment: fixed; }
 
+::-webkit-scrollbar {
+  display: none; }
+
 .subtitulo {
   background-color: rgba(255, 0, 0, 0.9);
   background-image: radial-gradient(circle, red, black);
